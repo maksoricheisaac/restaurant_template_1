@@ -1,5 +1,12 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
+import { Pacifico } from 'next/font/google';
+
+const pacifico = Pacifico({
+  variable: "--font-pacifico",
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export const Footer = () => {
   return (
@@ -8,7 +15,7 @@ export const Footer = () => {
         <div className="flex flex-wrap gap-8">
           {/* Restaurant Info */}
           <div>
-            <h3 className="text-2xl font-playfair mb-4">Le Délice</h3>
+            <h3 className={`${pacifico.className} text-2xl font-playfair mb-4`}>Le Délice</h3>
             <p className="text-gray-400 mb-4">
               Une expérience gastronomique unique au cœur de Brazzaville
             </p>

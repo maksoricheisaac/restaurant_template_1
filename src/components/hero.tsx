@@ -1,5 +1,12 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
+import { Pacifico } from 'next/font/google';
+
+const pacifico = Pacifico({
+  variable: "--font-pacifico",
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export const Hero = () => {
   return (
@@ -16,7 +23,7 @@ export const Hero = () => {
 
       {/* Content */}
       <div className="relative h-full flex flex-col items-center justify-center text-center text-white px-4">
-        <h1 className="text-5xl md:text-7xl font-playfair mb-6">
+        <h1 className={`${pacifico.className} text-5xl md:text-7xl font-playfair mb-6`}>
           Le Délice 
         </h1>
         <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 font-light">

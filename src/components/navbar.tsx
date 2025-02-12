@@ -2,6 +2,13 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { navItems } from '../data/nav-items';
+import { Pacifico } from 'next/font/google';
+
+const pacifico = Pacifico({
+  variable: "--font-pacifico",
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +54,7 @@ export const Navbar = () => {
           {/* Logo */}
           <a 
             href="#home" 
-            className={`font-playfair text-2xl md:text-3xl transition-colors duration-300 ${
+            className={`${pacifico.className} text-2xl md:text-3xl transition-colors duration-300 ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}
           >

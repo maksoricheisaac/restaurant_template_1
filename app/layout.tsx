@@ -12,6 +12,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
+
 export const metadata: Metadata = {
   title: "Le Délice - Restaurant Gastronomique Congolais à Brazzaville",
   description: "Le Délice vous invite à un voyage culinaire exceptionnel au cœur de la gastronomie congolaise. Plats raffinés, ingrédients frais et ambiance chaleureuse vous attendent à Brazzaville.",
