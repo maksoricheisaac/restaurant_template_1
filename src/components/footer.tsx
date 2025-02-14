@@ -62,7 +62,6 @@ export const Footer = () => {
               <li><a href="#menu" className="hover:text-white transition-colors duration-200">Menu</a></li>
               <li><a href="#reservations" className="hover:text-white transition-colors duration-200">Réservations</a></li>
               <li><a href="#events" className="hover:text-white transition-colors duration-200">Événements</a></li>
-              <li><a href="#blog" className="hover:text-white transition-colors duration-200">Blog</a></li>
               <li><a href="#contact" className="hover:text-white transition-colors duration-200">Contact</a></li>
             </ul>
           </div>

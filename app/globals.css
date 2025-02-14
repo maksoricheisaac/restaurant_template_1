@@ -1,1 +1,30 @@
 @import 'tailwindcss';
+
+/* Style général de la scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+    height: 6px; /* Épaisseur de la scrollbar */
+  }
+  
+  /* Couleur de la barre */
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Couleur du fond */
+    border-radius: 10px; /* Bords arrondis */
+  }
+  
+  /* Couleur et style du curseur de la scrollbar */
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #d1d5db; /* Gris clair */
+    border-radius: 10px;
+  }
+  
+  /* Effet au survol */
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af; /* Gris plus foncé au survol */
+  }
+  
+  /* Pour Firefox */
+  .custom-scrollbar {
+    scrollbar-width: thin; /* Réduit la taille */
+    scrollbar-color: #d1d5db #f1f1f1;
+  }
+  

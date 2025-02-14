@@ -26,7 +26,7 @@ export const Gallery = () => {
         </div>
 
         {/* Category Filter */}
-        <div className="flex justify-center gap-4 mb-12">
+        <div className="flex justify-center flex-wrap gap-4 mb-12">
           {categories.map((category) => (
             <button
               key={category}

@@ -31,7 +31,15 @@ export const allMenuItems: AllMenuItems[] = [
       price: 15000,
       category: 'entrees',
       isSpecial: true,
-      image: 'https://images.unsplash.com/photo-1583964304576-7da0cc9ec2b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
+      image: 'https://media.istockphoto.com/id/1422866960/fr/photo/foie-gras-saisi-%C3%A0-la-po%C3%AAle.jpg?s=612x612&w=0&k=20&c=475_txeCb2h1MSdqcVKsFzJvZSLg-ON--iQKFeZYgjc='
+    },
+    {
+      id: 3,
+      description: 'Blablabla',
+      name: 'Soupe à l\'Oignon',
+      price: 5000,
+      category: 'entrees',
+      image: 'https://assets.afcdn.com/recipe/20210104/116953_w648h414c1cx806cy863.webp'
     },
     {
       id: 3,
@@ -66,7 +74,7 @@ export const allMenuItems: AllMenuItems[] = [
       description: 'Bananes plantains frites',
       price: 2000,
       category: 'accompagnements',
-      image: 'https://images.unsplash.com/photo-1598511796432-32663d0875f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Du_bon_Alloko.JPG',
       dietary: { vegetarian: true, glutenFree: true }
     },
     {
@@ -85,7 +93,7 @@ export const allMenuItems: AllMenuItems[] = [
       description: 'Boisson rafraîchissante à base d\'hibiscus',
       price: 1000,
       category: 'boissons',
-      image: 'https://images.unsplash.com/photo-1592483478492-686b24b6f55d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      image: 'https://tarasmulticulturaltable.com/wp-content/uploads/2022/10/Bissap-2-of-3-1024x683.jpg',
       dietary: { vegetarian: true, glutenFree: true }
     },
     {

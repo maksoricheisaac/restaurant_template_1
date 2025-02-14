@@ -18,7 +18,7 @@ export const Menu = () => {
       const categoryItems = menuItems.filter(item => item.category === category.id);
       preview[category.id] = categoryItems
         .sort(() => Math.random() - 0.5) // Mélanger les plats
-        .slice(0, 2); // Prendre les 2 premiers
+        .slice(0, 3); // Prendre les 2 premiers
     });
     
     return preview;
@@ -55,7 +55,7 @@ export const Menu = () => {
         </div>
 
         {/* Menu Items Preview Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {previewItems[activeCategory]?.map((item) => (
             <div
               key={item.id}

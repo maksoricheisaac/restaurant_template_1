@@ -19,6 +19,22 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "upload.wikimedia.org",
+      },
+      {
+        protocol: "https",
+        hostname: "assets.afcdn.com"
+      },
+      {
+        protocol: "https",
+        hostname: "t4.ftcdn.net"
+      },
+      {
+        protocol: "https",
+        hostname: "img.cuisineaz.com"
+      },
+      {
+        protocol: "https",
+        hostname: "tarasmulticulturaltable.com"
       }
     ]
   }

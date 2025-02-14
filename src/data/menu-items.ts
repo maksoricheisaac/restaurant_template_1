@@ -25,6 +25,13 @@ export const menuItems : MenuItems = [
       image: 'https://media.istockphoto.com/id/1422866960/fr/photo/foie-gras-saisi-%C3%A0-la-po%C3%AAle.jpg?s=612x612&w=0&k=20&c=475_txeCb2h1MSdqcVKsFzJvZSLg-ON--iQKFeZYgjc='
     },
     {
+      id: 7,
+      name: 'Soupe à l\'Oignon',
+      price: 5000,
+      category: 'entrees',
+      image: 'https://assets.afcdn.com/recipe/20210104/116953_w648h414c1cx806cy863.webp'
+    },
+    {
       id: 3,
       name: 'Poulet Yassa',
       price: 8000,
@@ -53,5 +60,18 @@ export const menuItems : MenuItems = [
       category: 'specialites',
       image: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Du_bon_Alloko.JPG'
     },
-    
+    {
+      id: 8,
+      name: 'Boeuf Bourguignon',
+      price: 12000,
+      category: 'plats_principaux',
+      image: 'https://t4.ftcdn.net/jpg/01/43/16/79/360_F_143167933_aoprKk90mJ29tb4IRLiVJfGaB6Dy9MMa.jpg'
+    },
+    {
+      id: 9,
+      name: 'Tartiflette',
+      price: 11000,
+      category: 'specialites',
+      image: 'https://img.cuisineaz.com/660x495/2013/12/20/i28489-photo-de-tartiflette.jpeg'
+    },
   ];

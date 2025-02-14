@@ -55,7 +55,7 @@ export const About = () => {
               height={250}
             />
             <Image
-              src="https://images.unsplash.com/photo-1574966739987-65e42566b611?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              src="https://media.istockphoto.com/id/1033786878/fr/photo/plat-de-poisson-cr%C3%A9ative-au-restaurant-classique.jpg?s=612x612&w=0&k=20&c=Nty2vNzl4hheVm14mPlGmhsSvImIoD6kobRRBfMAsLE="
               alt="Plat signature"
               className="w-full h-64 object-cover rounded-lg"
               width={250}
